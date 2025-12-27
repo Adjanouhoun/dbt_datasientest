@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: examen_dbt_schema
+    database: EXAMEN_SNOWFLAKE
+    schema: PUBLIC
+    quoting:
+      identifier: true
+    tables:
+      - name: Album
+      - name: Artist
+      - name: Genre
+      - name: MediaType
+      - name: Playlist
+      - name: PlaylistTrack
+      - name: Track
